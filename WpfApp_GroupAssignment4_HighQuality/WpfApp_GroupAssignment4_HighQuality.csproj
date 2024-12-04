@@ -8,4 +8,10 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="ConsoleApp_GroupAssignment4_HighQuality">
+      <HintPath>..\..\..\..\Conestoga College\HighQuality\FullGroupProject_HighQuality\ConsoleApplication\ConsoleApp_GroupAssignment4_HighQuality\ConsoleApp_GroupAssignment4_HighQuality\obj\Debug\net8.0\ref\ConsoleApp_GroupAssignment4_HighQuality.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

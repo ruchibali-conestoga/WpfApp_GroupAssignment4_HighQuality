@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp_GroupAssignment4_HighQuality"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="912" Width="827">
     <Grid>
+        <StackPanel Margin="20">
+            <Label Content="Login" FontSize="24" Width="75"/>
+            <Label Content="Enter UserName:" FontSize="24" Width="744"/>
+            <TextBox x:Name="txtUserName" Height="35" Width="743" />
+            <Label Content="Enter Password:" FontSize="24" Width="747"/>
+            <PasswordBox x:Name="txtPassword" Height="42" Width="736" />
+            <Button Content="Login" Name="btnLogin" Height="44" Width="319" FontSize="24"/>
+            <Label Content="Login Message" FontSize="24" Width="744"/>
+            <Label Content="Schedule a Session:" FontSize="24" Width="744"/>
+            <Label Content="Enter Dog Name:" FontSize="24" Width="744"/>
+            <TextBox Name="txtDogName" Height="42" Width="736"/>
+            <Label Content="Select Date:" FontSize="24" Width="744"/>
+            <DatePicker Name="dprSession" Height="42" Width="736" />
+            <Button Content="Schedule Session" x:Name="btnLogin_Copy" Height="44" Width="319" FontSize="24"/>
+            <Label Content="Schedule Message" FontSize="24" Width="744"/>
+            <Label Content="Scheduled Sessions" FontSize="24" Width="741" />
+            <ListBox x:Name="SessionsListBox" Height="196" Width="725"/>
+        </StackPanel>
+
 
     </Grid>
 </Window>
